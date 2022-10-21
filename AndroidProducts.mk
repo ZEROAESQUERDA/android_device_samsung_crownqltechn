@@ -16,9 +16,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_crownqltechn.mk
+    $(LOCAL_DIR)/lineage_crownqltechn.mk
 
 COMMON_LUNCH_CHOICES := \
-	dot_crownqltechn-user \
-	dot_crownqltechn-userdebug \
-	dot_crownqltechn-eng
+	lineage_crownqltechn-user \
+	lineage_crownqltechn-userdebug \
+	lineage_crownqltechn-eng

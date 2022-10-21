@@ -16,11 +16,10 @@
 //
 
 cc_library_static {
-    name: "libinit_crownqltechn",
+    name: "init_samsung_crownqltechn",
     recovery_available: true,
-    srcs: ["init_crownqltechn.cpp"],
+    srcs: ["init_samsung_crownqltechn.cpp"],
     include_dirs: [
-        "system/core/base/include",
         "system/core/init"
     ],
     shared_libs: [
