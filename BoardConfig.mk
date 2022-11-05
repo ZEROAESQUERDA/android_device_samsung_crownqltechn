@@ -20,11 +20,21 @@
 
 DEVICE_PATH := device/samsung/crownqltechn
 
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := crownqltechn
 
 # Kernel
-TARGET_KERNEL_CONFIG := afaneh_crownqlte_defconfig
+TARGET_KERNEL_CONFIG := crownqlte_chn_open_defconfig
+BOARD_BOOT_HEADER_VERSION := 1
+BOARD_PREBUILT_DTBIMAGE := $(DEVICE_PATH)/prebuilt/Image.gz
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
+TARGET_KERNEL_HEADER_ARCH := arm64
+TARGET_KERNEL_HEADERS := kernel/samsung/sdm845
+TARGET_FORCE_PREBUILT_KERNEL := true
 
 # Vendor init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_samsung_crownqltechn
