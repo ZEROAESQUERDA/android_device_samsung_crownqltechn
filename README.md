@@ -29,3 +29,4 @@ The Samsung Galaxy N9 (codenamed "crownqltechn") is a top of the line device fro
 ![Samsung Galaxy N9](https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-note9-1.jpg)
 
 Copyright (C) 2021 AOSPK.
+# android_device_samsung_crownqltechn
